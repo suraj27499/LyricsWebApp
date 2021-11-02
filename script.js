@@ -26,7 +26,7 @@ function showData(data) {
       <button class="btn" data-artist="${song.artist.name}" data-songtitle="${song.title}">Get Lyrics</button>
     </li>`
             )
-            .join('')}  
+            .join(`<hr>`)}  
     </ul>
   `;
 
@@ -39,7 +39,7 @@ function showData(data) {
 async function getLyrics(artist, songTitle) {
     const res = await fetch(`${apiURL}/v1/${artist}/${songTitle}`);
     const data = await res.json();
-    alert(data.lyrics);
+
 
     const lyrics = data.lyrics.replace(/(\r\n|\r|\n)/g, '<br>');
 

@@ -25,7 +25,7 @@
     background-image: url('https://media.istockphoto.com/photos/studio-microphone-and-pop-shield-on-mic-in-the-empty-recording-studio-picture-id1279654034?k=20&m=1279654034&s=612x612&w=0&h=BLq_Eckhar_HV-d-zjEKgKYZ7Gs4t4fthvAQKylgrDg=');
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center center;
+    background-position: center ;
     color: #fff;
     display: flex;
     flex-direction: column;
@@ -80,7 +80,7 @@
   }
   
   .btn {
-    background-color: #8d56fd;
+    background-color: #ba42ff;
     border: 0;
     border-radius: 10px;
     color: #fff;
@@ -106,6 +106,7 @@
   li:nth-of-type(2n){
     background-color: rgb(0,0,0,0.3);
   }
+  
   .container {
     margin: 30px auto;
     max-width: 100%;
