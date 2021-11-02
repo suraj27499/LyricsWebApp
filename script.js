@@ -55,7 +55,7 @@ form.addEventListener('submit', e => {
 
     const searchTerm = search.value.trim();
 
-    if (!searchTerm) {
+    if (searchTerm === "") {
         alert('Please type in a search term');
     } else {
         searchSongs(searchTerm);
