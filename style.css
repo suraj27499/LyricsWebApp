@@ -22,7 +22,7 @@
   }
   
   header {
-    background-image: url('https://images.unsplash.com/photo-1510915361894-db8b60106cb1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80');
+    background-image: url('https://media.istockphoto.com/photos/studio-microphone-and-pop-shield-on-mic-in-the-empty-recording-studio-picture-id1279654034?k=20&m=1279654034&s=612x612&w=0&h=BLq_Eckhar_HV-d-zjEKgKYZ7Gs4t4fthvAQKylgrDg=');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -98,7 +98,14 @@
     justify-content: space-between;
     margin: 10px 0;
   }
-  
+  li{
+    display:inline-block;
+    height :50px;
+    padding:10px;
+  }
+  li:nth-of-type(2n){
+    background-color: rgb(0,0,0,0.3);
+  }
   .container {
     margin: 30px auto;
     max-width: 100%;
@@ -118,8 +125,5 @@
     justify-content: center;
   }
   
-  .centered button {
-    transform: scale(1.3);
-    margin: 15px;
-  }
+  
   
