@@ -2,7 +2,7 @@
 const form = document.getElementById('form');
 const search = document.getElementById('search');
 const result = document.getElementById('result');
-const more = document.getElementById('more');
+
 
 const apiURL = 'https://api.lyrics.ovh';
 
@@ -46,7 +46,7 @@ async function getLyrics(artist, songTitle) {
     result.innerHTML = `<h2><strong>${artist}</strong> - ${songTitle}</h2>
   <span>${lyrics}</span>`;
 
-    more.innerHTML = '';
+
 }
 
 // Event listeners
